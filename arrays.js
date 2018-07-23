@@ -1,9 +1,9 @@
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToEndOfArray(array, element){
-  
+function addElementToEndOfArray(arr, element){
+  return arr.push(element);
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-  
+  return [...arr, element];
 }
